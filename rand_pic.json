@@ -3,7 +3,7 @@
     "apiver":9,					
     "name":"随机图片",	
     "version":"0.2.0",			
-    "version_id":1,				
+    "version_id":2,				
     "author":"super1207",			
     "description":"-- 此插件只能在MiraiCQ中加载！\n-- 使用方法：\n群聊发送：\"随机图片\"\n群聊发送：\"来点惠惠的图片\"(\"惠惠\"可以换成其它)",
     "event":[					
