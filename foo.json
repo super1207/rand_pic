@@ -1,0 +1,18 @@
+{
+    "ret":1,					
+    "apiver":9,					
+    "name":"随机图片",	
+    "version":"0.0.1",			
+    "version_id":1,				
+    "author":"super1207",			
+    "description":"-- 此插件只能在MiraiCQ中加载！\n-- 使用方法：群聊发送\"随机图片\"",
+    "event":[					
+		{
+            "id":1207,
+            "type":1207,
+            "name":"onebot11原始事件",
+            "priority":30000,
+            "function":"_event1207"
+        }
+    ]
+}
