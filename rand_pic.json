@@ -1,16 +1,16 @@
 {
     "ret":1,					
     "apiver":9,					
-    "name":"随机图片",	
+    "name":"闅忔満鍥剧墖",	
     "version":"0.2.0",			
     "version_id":2,				
     "author":"super1207",			
-    "description":"-- 此插件只能在MiraiCQ中加载！\n-- 使用方法：\n群聊发送：\"随机图片\"\n群聊发送：\"来点惠惠的图片\"(\"惠惠\"可以换成其它)",
+    "description":"-- 姝ゆ彃浠跺彧鑳藉湪MiraiCQ涓姞杞斤紒\n-- 浣跨敤鏂规硶锛歕n缇よ亰鍙戦�侊細\"闅忔満鍥剧墖\"\n缇よ亰鍙戦�侊細\"鏉ョ偣鎯犳儬鐨勫浘鐗嘰"(\"鎯犳儬\"鍙互鎹㈡垚鍏跺畠)",
     "event":[					
 		{
             "id":1207,
             "type":1207,
-            "name":"onebot11原始事件",
+            "name":"onebot11鍘熷浜嬩欢",
             "priority":30000,
             "function":"_event1207"
         }
