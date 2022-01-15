@@ -1,28 +1,32 @@
-½éÉÜ£º
-	Ëæ»úÍ¼Æ¬²å¼ş£¬MiraiCQÍØÕ¹API/ÊÂ¼şµÄÊ¾Àı²å¼ş£¨·ÇCQ¼æÈİ²å¼ş£©
+ä»‹ç»ï¼š
+	éšæœºå›¾ç‰‡æ’ä»¶ï¼ŒMiraiCQæ‹“å±•API/äº‹ä»¶çš„ç¤ºä¾‹æ’ä»¶ï¼ˆéCQå…¼å®¹æ’ä»¶ï¼‰
 
-´¥·¢·½·¨£º
-	ÈºÁÄ·¢ËÍ£º"Ëæ»úÍ¼Æ¬"
+è§¦å‘æ–¹æ³•ï¼š
+	ç¾¤èŠå‘é€ï¼š"éšæœºå›¾ç‰‡"
+	ç¾¤èŠå‘é€ï¼š"æ¥ç‚¹æƒ æƒ çš„å›¾ç‰‡"("æƒ æƒ "å¯ä»¥æ¢æˆå…¶å®ƒ)
 
-±àÒë£º
-	¾²Ì¬Á´½Ó£º
+ç¼–è¯‘ï¼š
+	é™æ€é“¾æ¥ï¼š
 		$ENV:RUSTFLAGS='-C target-feature=+crt-static'
-	¾µÏñ¼ÓËÙ£¨´óÂ½¿ÉÄÜĞèÒªÕâ¸ö£©£º
+	é•œåƒåŠ é€Ÿï¼ˆå¤§é™†å¯èƒ½éœ€è¦è¿™ä¸ªï¼‰ï¼š
 		$ENV:RUSTUP_UPDATE_ROOT='https://mirrors.ustc.edu.cn/rust-static/rustup'
 		$ENV:RUSTUP_DIST_SERVER='https://mirrors.ustc.edu.cn/rust-static'
-	±àÒëwindows,32Î»£º
+	ç¼–è¯‘windows,32ä½ï¼š
 		rustup target add i686-pc-windows-msvc
 		cargo build --target=i686-pc-windows-msvc
 
-Ïà¹ØrustÑ§Ï°×ÊÁÏ£º
+ç›¸å…³rustå­¦ä¹ èµ„æ–™ï¼š
 	https://docs.microsoft.com/zh-cn/learn/browse/?terms=rust
 	https://docs.rs/
 
-MiraiCQÏîÄ¿µØÖ·£º
+MiraiCQé¡¹ç›®åœ°å€ï¼š
 	https://github.com/super1207/MiraiCQ
 
-Ëæ»úÍ¼Æ¬ÍøÖ·£¨²»ÖªµÀÊÇË­×öµÄ£¬µ«±íÊ¾¸ĞĞ»£©£º
+éšæœºå›¾ç‰‡ç½‘å€ï¼ˆä¸çŸ¥é“æ˜¯è°åšçš„ï¼Œä½†è¡¨ç¤ºæ„Ÿè°¢ï¼‰ï¼š
 	https://iw233.cn/api/Random.php
 
-¿ªÔ´Ğ­Òé£º
+æœå›¾ç½‘å€ï¼š
+	ç™¾åº¦å›¾ç‰‡
+
+å¼€æºåè®®ï¼š
 	MIT

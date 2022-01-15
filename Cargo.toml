@@ -1,16 +1,18 @@
 [package]
-name = "foo"
-version = "0.1.0"
+name = "rand_pic"
+version = "0.2.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+reqwest = { version = "0.10", features = ["blocking"] }
+regex = "1"
 encoding = "0.2.33"
 json = "*"
 rand = "0.8.4"
 
 [lib]
-name = "foo" #生成dll的文件名
+name = "rand_pic" #生成dll的文件名
 crate-type = ["dylib"]
 

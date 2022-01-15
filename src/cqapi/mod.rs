@@ -4,9 +4,6 @@ use std::ffi::CStr;
 use std::ffi::CString;
 use std::os::raw::c_char;
 
-
-// encoding = "0.2.33"
-extern crate encoding;
 use encoding::all::GBK;
 use encoding::{DecoderTrap, EncoderTrap, Encoding};
 
