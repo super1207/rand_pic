@@ -7,6 +7,9 @@ fn do_rand_pic(root: &json::JsonValue) -> Result<i32, Box<dyn std::error::Error>
     if msg_json.len() != 1 {
         return Ok(0);
     }
+    if msg_json[0]["type"] != "text" {
+        return Ok(0);
+    }
     if msg_json[0]["data"]["text"] != "随机图片" {
         return Ok(0);
     }
@@ -37,6 +40,9 @@ fn do_rand_pic(root: &json::JsonValue) -> Result<i32, Box<dyn std::error::Error>
 fn do_req_pic(root: &json::JsonValue) -> Result<i32, Box<dyn std::error::Error>> {
     let msg_json = &root["message"];
     if msg_json.len() != 1 {
+        return Ok(0);
+    }
+    if msg_json[0]["type"] != "text" {
         return Ok(0);
     }
     let str0 = msg_json[0]["data"]["text"].as_str().ok_or("json is not str")?.to_string();

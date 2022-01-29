@@ -13,7 +13,7 @@
 		$ENV:RUSTUP_DIST_SERVER='https://mirrors.ustc.edu.cn/rust-static'
 	编译windows,32位：
 		rustup target add i686-pc-windows-msvc
-		cargo build --target=i686-pc-windows-msvc
+		cargo build --target=i686-pc-windows-msvc --release
 
 相关rust学习资料：
 	https://docs.microsoft.com/zh-cn/learn/browse/?terms=rust
