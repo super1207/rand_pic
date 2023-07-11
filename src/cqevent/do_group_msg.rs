@@ -27,7 +27,7 @@ fn do_rand_pic(root: &json::JsonValue) -> Result<i32, Box<dyn std::error::Error>
                 {
                     "type": "image",
                     "data": {
-                        "file": "https://iw233.cn/api/Random.php?".to_owned() + &rand::random::<i32>().to_string()
+                        "file": "https://www.dmoe.cc/random.php?".to_owned() + &rand::random::<i32>().to_string()
                     }
                 }
             ]

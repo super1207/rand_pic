@@ -23,7 +23,7 @@ MiraiCQ项目地址：
 	https://github.com/super1207/MiraiCQ
 
 随机图片网址（不知道是谁做的，但表示感谢）：
-	https://iw233.cn/api/Random.php
+	https://www.dmoe.cc/random.php
 
 搜图网址：
 	百度图片
